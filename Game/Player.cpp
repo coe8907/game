@@ -12,6 +12,7 @@ float acc_y = 0.5f;
 Player::Player(bitmap * passed_bitmap,bool p_solid,int id ):Object(passed_bitmap,p_solid), Controller(id) {
     xspeed = 0.0f;
     yspeed = 0.0f;
+    name = 'P';
 }
 Player::~Player(){
     

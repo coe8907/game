@@ -1,4 +1,5 @@
 #pragma once
+#pragma once
 #include "bitmap.h"
 class Bitmap_manager
 

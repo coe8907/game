@@ -20,6 +20,7 @@ void Object::colision(Object * target) {
 }
 
 void Object::update(int xoffset,int yoffset) {
+    
 	m_bitmap->set_xoffset(xoffset);
 	m_bitmap->set_yoffset(yoffset);
 }

@@ -38,8 +38,8 @@ private:
 	std::vector<node*> getNodes(node* pos);
 	
 	bool findingPath = false;
-	node* startNode;
-	node* targetNode;
+	node* startNode = nullptr;
+	node* targetNode = nullptr;
 	node* Nodes[sizeX][sizeY];
 	int pathIncrementer = 0;
 };

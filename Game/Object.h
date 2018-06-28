@@ -9,6 +9,7 @@ private:
 protected:
     bitmap * m_bitmap;
 public:
+    char name = 'O';
 	int get_x() { return m_bitmap->getxpos(); }
 	int get_y() { return m_bitmap->getypos(); }
 	int get_width() { return m_bitmap->getwidth(); }

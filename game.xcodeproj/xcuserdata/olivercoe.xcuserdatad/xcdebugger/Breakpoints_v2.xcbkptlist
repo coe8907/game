@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Game/Player.cpp"
-            timestampString = "551835149.445906"
+            timestampString = "551873796.7277679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "Player::update(int xoffset, int yoffset)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Game/Player.cpp"
-            timestampString = "551835227.721409"
+            timestampString = "551873796.7277679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "Player::update(int xoffset, int yoffset)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
+            timestampString = "551873796.7277679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
             landmarkName = "enemy::executePath()"
             landmarkType = "7">
          </BreakpointContent>
@@ -54,155 +54,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
-            landmarkName = "enemy::executePath()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Game/enemy.cpp"
-            timestampString = "551837376.07979"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "enemy::findPath(maths::vector2 startPos, maths::vector2 targetPos)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
-            landmarkName = "enemy::executePath()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "enemy::update(int xoffset, int yoffset)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "153"
-            endingLineNumber = "153"
-            landmarkName = "enemy::executePath()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "157"
-            endingLineNumber = "157"
-            landmarkName = "enemy::executePath()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
-            landmarkName = "enemy::executePath()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
-            landmarkName = "enemy::executePath()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "169"
-            endingLineNumber = "169"
-            landmarkName = "enemy::executePath()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
+            timestampString = "551873796.7277679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "164"
@@ -218,7 +74,71 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "enemy::findPath(maths::vector2 startPos, maths::vector2 targetPos)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "enemy::executePath()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "enemy::update(int xoffset, int yoffset)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "enemy::executePath()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "174"
@@ -234,11 +154,91 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Game/enemy.cpp"
-            timestampString = "551839846.389876"
+            timestampString = "551873796.7277679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "203"
-            endingLineNumber = "203"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "enemy::executePath()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "enemy::executePath()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "enemy::executePath()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "enemy::executePath()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "enemy::executePath()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
             landmarkName = "enemy::getNodes(node* pos)"
             landmarkType = "7">
          </BreakpointContent>
@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Game/enemy.cpp"
-            timestampString = "551838894.05476"
+            timestampString = "551873796.7277679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "enemy::findObjects(std::vector&lt;Object*&gt; _collidableObjects)"
             landmarkType = "7">
          </BreakpointContent>
@@ -266,11 +266,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Game/enemy.cpp"
-            timestampString = "551838923.56396"
+            timestampString = "551873796.7277679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "enemy::findObjects(std::vector&lt;Object*&gt; _collidableObjects)"
             landmarkType = "7">
          </BreakpointContent>
@@ -282,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Game/enemy.cpp"
-            timestampString = "551838928.135604"
+            timestampString = "551873796.7277679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "enemy::findObjects(std::vector&lt;Object*&gt; _collidableObjects)"
             landmarkType = "7">
             <Locations>
@@ -345,11 +345,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Game/enemy.cpp"
-            timestampString = "551839182.472909"
+            timestampString = "551873796.7277679"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "enemy::findObjects(std::vector&lt;Object*&gt; _collidableObjects)"
             landmarkType = "7">
             <Locations>
@@ -399,6 +399,182 @@
                   offsetFromSymbolStart = "1585">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "enemy::findObjects(std::vector&lt;Object*&gt; _collidableObjects)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "enemy::findObjects(std::vector&lt;Object*&gt; _collidableObjects)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "enemy::findPath(maths::vector2 startPos, maths::vector2 targetPos)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "enemy::findPath(maths::vector2 startPos, maths::vector2 targetPos)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "enemy::getNodes(node* pos)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "enemy::getNodes(node* pos)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "enemy::findPath(maths::vector2 startPos, maths::vector2 targetPos)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "enemy::findPath(maths::vector2 startPos, maths::vector2 targetPos)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "enemy::findPath(maths::vector2 startPos, maths::vector2 targetPos)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "enemy::findPath(maths::vector2 startPos, maths::vector2 targetPos)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Game/enemy.cpp"
+            timestampString = "551873796.7277679"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "enemy::findPath(maths::vector2 startPos, maths::vector2 targetPos)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

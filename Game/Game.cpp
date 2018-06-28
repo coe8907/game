@@ -49,7 +49,7 @@ Game::Game()
 	Text = new text("KOMIKAP_.ttf", 100, "Hello!", { 255, 0, 0, 255 });
 
 	sound = new soundManager();
-	sound->playMusic("starwars.wav");
+	//sound->playMusic("starwars.wav");
 
 	world = new World();
 }

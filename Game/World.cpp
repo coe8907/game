@@ -55,13 +55,13 @@ World::World()
 		}
 	}
 	player = new Player(bitmap_manager.create_bitmap("assets/black.bmp", 200, 200, true), true,0);
-	player->get_bitmap()->set_Load_Position(0,0, 1,1);
+	player->get_bitmap()->set_Load_Position(0,0, 50,50);
 	player->get_bitmap()->set_Draw_Dimensions(50,50);
 	player->get_bitmap()->set_Draw_Position(200,200);
 	place_object_in_chunk(player);
 
 	Enemy = new enemy(bitmap_manager.create_bitmap("assets/black.bmp", 200, 200, true), true,player);
-	Enemy->get_bitmap()->set_Load_Position(0, 0, 1, 1);
+	Enemy->get_bitmap()->set_Load_Position(0, 0, 50, 50);
 	Enemy->get_bitmap()->set_Draw_Dimensions(50, 50);
 	Enemy->get_bitmap()->set_Draw_Position(10, 10);
 	place_object_in_chunk(Enemy);
@@ -94,7 +94,7 @@ vector<Object*> World::get_all_objects() {
 	vector<Object*> return_obj;
 	for (int i = 0; i < chunks->size(); i++) {
 		for (int j = 0; j < chunks->at(i).objects.size(); j++) {
-			return_obj.push_back(chunks->at(i).objects.at(j));
+            if(chunks->at(i).objects.at(j)->name == 'O'){return_obj.push_back(chunks->at(i).objects.at(j));}
 		}
 	}
 	return return_obj;

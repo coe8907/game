@@ -1,6 +1,4 @@
 #include "Bitmap_manager.h"
-
-#include <SDL2/SDL.h>
 #include <map>
 using namespace std;
 
