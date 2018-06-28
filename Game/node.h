@@ -12,9 +12,9 @@ public:
 	bool walkable;
 	positions position;
 
-	int gCost = 0;
-	int hCost = 0;
-	int fcost;
+	float gCost = 0;
+	float hCost = 0;
+	float fcost;
 
 	node* parent = nullptr;
 

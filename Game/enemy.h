@@ -40,7 +40,7 @@ private:
 	bool findingPath = false;
 	node* startNode = nullptr;
 	node* targetNode = nullptr;
-	node* Nodes[sizeX][sizeY];
+	node* Nodes[sizeX*50][sizeY*50];
 	int pathIncrementer = 0;
 };
 

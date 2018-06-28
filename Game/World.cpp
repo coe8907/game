@@ -67,7 +67,7 @@ World::World()
 	place_object_in_chunk(Enemy);
 
 	Enemy->findObjects(get_all_objects());
-	Enemy->findPath(maths::vector2(Enemy->get_x()/50, Enemy->get_y()/50), maths::vector2(player->get_x()/50, player->get_y()/50));
+	Enemy->findPath(maths::vector2(Enemy->get_x(), Enemy->get_y()), maths::vector2(player->get_x(), player->get_y()));
 }
 
 
