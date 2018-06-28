@@ -66,7 +66,8 @@ void enemy::findPath(maths::vector2 startPos, maths::vector2 targetPos)
 		{
 			retracePath(startNode, currentNode);
             Uint32 time_taken = SDL_GetTicks() - start_time;
-            
+            closedSet.clear();
+            openSet.clear();
             cout<< "time to find path = " << time_taken <<endl;
 			return;
 		}
@@ -186,11 +187,11 @@ void enemy::executePath()
             pathIncrementer++;
         }
         
-    }else{
+    }
         path.clear();
         findPath(maths::vector2(get_x()/50,get_y()/50), maths::vector2(target->get_x()/50,target->get_y()/50));
         pathIncrementer = 0;
-    }
+    
 }
 
 
