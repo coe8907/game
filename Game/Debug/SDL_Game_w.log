@@ -1,0 +1,36 @@
+﻿  World.cpp
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(71): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(84): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(85): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(88): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(96): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(97): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(105): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(106): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(111): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(130): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(134): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(136): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(139): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(162): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(164): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(168): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(170): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(174): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(176): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(180): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(182): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(242): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(268): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(271): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(281): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(293): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(303): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(312): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(326): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(361): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(372): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(388): warning C4018: '<': signed/unsigned mismatch
+c:\users\2smite17\documents\sdlengine\sdl_game\sdl_game_w\world.cpp(420): warning C4018: '<': signed/unsigned mismatch
+  SDL_Game_w.vcxproj -> C:\Users\2smite17\Documents\SDLEngine\SDL_game\SDL_Game_w\Debug\SDL_Game_w.exe
+  SDL_Game_w.vcxproj -> C:\Users\2smite17\Documents\SDLEngine\SDL_game\SDL_Game_w\Debug\SDL_Game_w.pdb (Partial PDB)

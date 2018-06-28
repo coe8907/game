@@ -1,0 +1,168 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		53B972BE20E41B1D00F356CE /* game_1 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 53B972BF20E41B1D00F356CE /* Build configuration list for PBXAggregateTarget "game_1" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = game_1;
+			productName = game_1;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		53B972A320E419B400F356CE /* Bitmap_manager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bitmap_manager.cpp; path = ../Bitmap_manager.cpp; sourceTree = "<group>"; };
+		53B972A420E419B400F356CE /* Bitmap_manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Bitmap_manager.h; path = ../Bitmap_manager.h; sourceTree = "<group>"; };
+		53B972A520E419B400F356CE /* bitmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bitmap.cpp; path = ../bitmap.cpp; sourceTree = "<group>"; };
+		53B972A620E419B400F356CE /* bitmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bitmap.h; path = ../bitmap.h; sourceTree = "<group>"; };
+		53B972A720E419B400F356CE /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Controller.cpp; path = ../Controller.cpp; sourceTree = "<group>"; };
+		53B972A820E419B400F356CE /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = ../Controller.h; sourceTree = "<group>"; };
+		53B972A920E419C500F356CE /* enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = enemy.cpp; path = ../enemy.cpp; sourceTree = "<group>"; };
+		53B972AA20E419C500F356CE /* enemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = enemy.h; path = ../enemy.h; sourceTree = "<group>"; };
+		53B972AB20E419C500F356CE /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = ../Game.cpp; sourceTree = "<group>"; };
+		53B972AC20E419C500F356CE /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		53B972AD20E419CF00F356CE /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; lineEnding = 0; name = main.cpp; path = ../../../main.cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B972AE20E419CF00F356CE /* node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = node.cpp; path = ../node.cpp; sourceTree = "<group>"; };
+		53B972AF20E419CF00F356CE /* node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = node.h; path = ../node.h; sourceTree = "<group>"; };
+		53B972B020E419CF00F356CE /* Object.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Object.cpp; path = ../Object.cpp; sourceTree = "<group>"; };
+		53B972B120E419CF00F356CE /* Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Object.h; path = ../Object.h; sourceTree = "<group>"; };
+		53B972B220E419CF00F356CE /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Player.cpp; path = ../Player.cpp; sourceTree = "<group>"; };
+		53B972B320E419CF00F356CE /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Player.h; path = ../Player.h; sourceTree = "<group>"; };
+		53B972B420E419DB00F356CE /* soundManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = soundManager.cpp; path = ../soundManager.cpp; sourceTree = "<group>"; };
+		53B972B520E419DB00F356CE /* soundManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = soundManager.h; path = ../soundManager.h; sourceTree = "<group>"; };
+		53B972B620E419E900F356CE /* text.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = text.cpp; path = ../text.cpp; sourceTree = "<group>"; };
+		53B972B720E419E900F356CE /* text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = text.h; path = ../text.h; sourceTree = "<group>"; };
+		53B972B820E419E900F356CE /* vector2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = vector2.cpp; path = ../vector2.cpp; sourceTree = "<group>"; };
+		53B972B920E419E900F356CE /* vector2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = vector2.h; path = ../vector2.h; sourceTree = "<group>"; };
+		53B972BA20E419E900F356CE /* World_Gen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = World_Gen.cpp; path = ../World_Gen.cpp; sourceTree = "<group>"; };
+		53B972BB20E419E900F356CE /* World_Gen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = World_Gen.h; path = ../World_Gen.h; sourceTree = "<group>"; };
+		53B972BC20E419E900F356CE /* World.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = World.cpp; path = ../World.cpp; sourceTree = "<group>"; };
+		53B972BD20E419E900F356CE /* World.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = World.h; path = ../World.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		53B9729C20E4198C00F356CE = {
+			isa = PBXGroup;
+			children = (
+				53B972B620E419E900F356CE /* text.cpp */,
+				53B972B720E419E900F356CE /* text.h */,
+				53B972B820E419E900F356CE /* vector2.cpp */,
+				53B972B920E419E900F356CE /* vector2.h */,
+				53B972BA20E419E900F356CE /* World_Gen.cpp */,
+				53B972BB20E419E900F356CE /* World_Gen.h */,
+				53B972BC20E419E900F356CE /* World.cpp */,
+				53B972BD20E419E900F356CE /* World.h */,
+				53B972B420E419DB00F356CE /* soundManager.cpp */,
+				53B972B520E419DB00F356CE /* soundManager.h */,
+				53B972AD20E419CF00F356CE /* main.cpp */,
+				53B972AE20E419CF00F356CE /* node.cpp */,
+				53B972AF20E419CF00F356CE /* node.h */,
+				53B972B020E419CF00F356CE /* Object.cpp */,
+				53B972B120E419CF00F356CE /* Object.h */,
+				53B972B220E419CF00F356CE /* Player.cpp */,
+				53B972B320E419CF00F356CE /* Player.h */,
+				53B972A920E419C500F356CE /* enemy.cpp */,
+				53B972AA20E419C500F356CE /* enemy.h */,
+				53B972AB20E419C500F356CE /* Game.cpp */,
+				53B972AC20E419C500F356CE /* Game.h */,
+				53B972A320E419B400F356CE /* Bitmap_manager.cpp */,
+				53B972A420E419B400F356CE /* Bitmap_manager.h */,
+				53B972A520E419B400F356CE /* bitmap.cpp */,
+				53B972A620E419B400F356CE /* bitmap.h */,
+				53B972A720E419B400F356CE /* Controller.cpp */,
+				53B972A820E419B400F356CE /* Controller.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		53B9729D20E4198C00F356CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					53B972BE20E41B1D00F356CE = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53B972A020E4198C00F356CE /* Build configuration list for PBXProject "team_a" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53B9729C20E4198C00F356CE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B972BE20E41B1D00F356CE /* game_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		53B972A120E4198C00F356CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				NEW_SETTING = "";
+			};
+			name = Debug;
+		};
+		53B972A220E4198C00F356CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				NEW_SETTING = "";
+			};
+			name = Release;
+		};
+		53B972C020E41B1D00F356CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53B972C120E41B1D00F356CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53B972A020E4198C00F356CE /* Build configuration list for PBXProject "team_a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B972A120E4198C00F356CE /* Debug */,
+				53B972A220E4198C00F356CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B972BF20E41B1D00F356CE /* Build configuration list for PBXAggregateTarget "game_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B972C020E41B1D00F356CE /* Debug */,
+				53B972C120E41B1D00F356CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53B9729D20E4198C00F356CE /* Project object */;
+}

@@ -1,0 +1,53 @@
+﻿  bitmap.cpp
+  Bitmap_manager.cpp
+  Controller.cpp
+  Game.cpp
+  main.cpp
+  Object.cpp
+  Player.cpp
+c:\users\edwardsmith\documents\github\sdlengine\sdl_game\sdl_game_w\player.cpp(51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  text.cpp
+  vector2.cpp
+  World.cpp
+c:\users\edwardsmith\documents\github\sdlengine\sdl_game\sdl_game_w\world.cpp(112): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\edwardsmith\documents\github\sdlengine\sdl_game\sdl_game_w\world.cpp(120): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  World_Gen.cpp
+  Generating Code...
+c:\users\edwardsmith\documents\github\sdlengine\sdl_game\sdl_game_w\vector2.cpp(54): warning C4717: 'maths::vector2::operator==': recursive on all control paths, function will cause runtime stack overflow
+c:\users\edwardsmith\documents\github\sdlengine\sdl_game\sdl_game_w\vector2.cpp(59): warning C4717: 'maths::vector2::operator!=': recursive on all control paths, function will cause runtime stack overflow
+bitmap.obj : error LNK2019: unresolved external symbol SDL_RWFromFile referenced in function "public: __cdecl bitmap::bitmap(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,bool)" (??0bitmap@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH_N@Z)
+World_Gen.obj : error LNK2001: unresolved external symbol SDL_RWFromFile
+bitmap.obj : error LNK2019: unresolved external symbol SDL_MapRGB referenced in function "public: __cdecl bitmap::bitmap(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,bool)" (??0bitmap@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH_N@Z)
+World_Gen.obj : error LNK2001: unresolved external symbol SDL_MapRGB
+bitmap.obj : error LNK2019: unresolved external symbol SDL_LoadBMP_RW referenced in function "public: __cdecl bitmap::bitmap(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,bool)" (??0bitmap@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH_N@Z)
+World_Gen.obj : error LNK2001: unresolved external symbol SDL_LoadBMP_RW
+bitmap.obj : error LNK2019: unresolved external symbol SDL_SetColorKey referenced in function "public: __cdecl bitmap::bitmap(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,bool)" (??0bitmap@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH_N@Z)
+bitmap.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: __cdecl bitmap::bitmap(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,bool)" (??0bitmap@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH_N@Z)
+text.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+World_Gen.obj : error LNK2001: unresolved external symbol SDL_CreateTextureFromSurface
+bitmap.obj : error LNK2019: unresolved external symbol SDL_UnlockTexture referenced in function "private: void __cdecl bitmap::create_Colision_Mask(void)" (?create_Colision_Mask@bitmap@@AEAAXXZ)
+bitmap.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl bitmap::draw(void)" (?draw@bitmap@@QEAAXXZ)
+text.obj : error LNK2001: unresolved external symbol SDL_RenderCopy
+Bitmap_manager.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: __cdecl Bitmap_manager::~Bitmap_manager(void)" (??1Bitmap_manager@@QEAA@XZ)
+Controller.obj : error LNK2019: unresolved external symbol SDL_NumJoysticks referenced in function "public: __cdecl Controller::Controller(void)" (??0Controller@@QEAA@XZ)
+Controller.obj : error LNK2019: unresolved external symbol SDL_JoystickOpen referenced in function "public: __cdecl Controller::Controller(void)" (??0Controller@@QEAA@XZ)
+Controller.obj : error LNK2019: unresolved external symbol SDL_JoystickNumAxes referenced in function "public: __cdecl Controller::Controller(void)" (??0Controller@@QEAA@XZ)
+Controller.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Controller::c_update(void)" (?c_update@Controller@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_UpdateWindowSurface referenced in function "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: __cdecl Game::~Game(void)" (??1Game@@QEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_PumpEvents referenced in function "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: void __cdecl Game::paint(void)" (?paint@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "public: void __cdecl Game::paint(void)" (?paint@Game@@QEAAXXZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: __cdecl Game::~Game(void)" (??1Game@@QEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol SDL_InitSubSystem referenced in function "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+Game.obj : error LNK2019: unresolved external symbol TTF_Init referenced in function "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ)
+main.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "void __cdecl mainloop(void)" (?mainloop@@YAXXZ)
+text.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: static struct SDL_Texture * __cdecl text::loadFont(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color)" (?loadFont@text@@SAPEAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HAEBV34@USDL_Color@@@Z)
+text.obj : error LNK2019: unresolved external symbol SDL_QueryTexture referenced in function "public: void __cdecl text::displaytext(int,int)" (?displaytext@text@@QEAAXHH@Z)
+text.obj : error LNK2019: unresolved external symbol TTF_OpenFont referenced in function "public: static struct SDL_Texture * __cdecl text::loadFont(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color)" (?loadFont@text@@SAPEAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HAEBV34@USDL_Color@@@Z)
+text.obj : error LNK2019: unresolved external symbol TTF_RenderText_Solid referenced in function "public: static struct SDL_Texture * __cdecl text::loadFont(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct SDL_Color)" (?loadFont@text@@SAPEAUSDL_Texture@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HAEBV34@USDL_Color@@@Z)
+C:\Users\EdwardSmith\Documents\GitHub\SDLEngine\SDL_game\SDL_Game_w\SDL\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\EdwardSmith\Documents\GitHub\SDLEngine\SDL_game\SDL_Game_w\SDL\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\EdwardSmith\Documents\GitHub\SDLEngine\SDL_game\SDL_Game_w\x64\Debug\SDL_Game_w.exe : fatal error LNK1120: 27 unresolved externals
